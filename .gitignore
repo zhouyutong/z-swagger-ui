@@ -1,2 +1,12 @@
-*.ibc
-*.o
+.svn
+target/
+bin/
+.idea/
+
+*.bak
+*.iml
+*.versionsBackup
+.DS_Store
+.project
+.settings
+.classpath阿
