@@ -95,6 +95,10 @@
     <div class="layui-tab layui-tab-brief">
         <div class="layui-tab-content" style="min-height: 150px; padding: 5px 0px 0px; height: 803px;">
             <div class="layui-tab-item layui-show">
+                <fieldset class="layui-elem-field layui-field-title" >
+                    <legend>Parameters</legend>
+                </fieldset>
+
                 <table class="layui-table">
                     <thead>
                     <tr>
@@ -141,7 +145,7 @@
                 </tr>
                 <tr>
                   <th>Description</th>
-                  <td colspan="3">{{:description}}</td>
+                  <td colspan="3"><span style="color: red;"><b>{{:description}}</b></span></td>
                 </tr>
                 <tr>
                   <th>Consumes</th>
