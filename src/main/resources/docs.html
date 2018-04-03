@@ -75,7 +75,6 @@
                         <th>Name</th>
                         <th>Description</th>
                         <th>Data Type</th>
-                        <th>Required</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -84,11 +83,6 @@
                         <td>{{:name}}</td>
                         <td>{{:description}}</td>
                         <td>{{:type}}</td>
-                        {{if required}}
-                        <td><i class="layui-icon">&#xe618;</i></td>
-                        {{else}}
-                        <td></td>
-                        {{/if}}
                     </tr>
                     {{/for}}
                     </tbody>
